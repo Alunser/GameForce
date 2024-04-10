@@ -1,2 +1,2 @@
 # GameForce
-Loja de venda de games
+Loja de venda de games.
