@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameForce.Api", "GameForce.Api\GameForce.Api.csproj", "{2361D7F5-7FC9-4BEF-912B-2F61735AC585}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameForce.Api", "GameForce.Api\GameForce.Api.csproj", "{2361D7F5-7FC9-4BEF-912B-2F61735AC585}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{4ED97F1F-597F-47F7-9592-47EF1DD6B876}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{604E7AD2-5147-4791-B795-A9D06B62228F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameForme.Domain", "GameForme.Domain\GameForme.Domain.csproj", "{44AB500F-AC1B-408E-B484-52FFF73ECD3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameForme.Domain", "GameForme.Domain\GameForme.Domain.csproj", "{44AB500F-AC1B-408E-B484-52FFF73ECD3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameForce.Domain.Core", "GameForce.Domain.Core\GameForce.Domain.Core.csproj", "{E8EF1B93-D76F-4F81-94EA-8B7163A39188}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +27,10 @@ Global
 		{44AB500F-AC1B-408E-B484-52FFF73ECD3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44AB500F-AC1B-408E-B484-52FFF73ECD3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44AB500F-AC1B-408E-B484-52FFF73ECD3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8EF1B93-D76F-4F81-94EA-8B7163A39188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8EF1B93-D76F-4F81-94EA-8B7163A39188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8EF1B93-D76F-4F81-94EA-8B7163A39188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8EF1B93-D76F-4F81-94EA-8B7163A39188}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{2361D7F5-7FC9-4BEF-912B-2F61735AC585} = {4ED97F1F-597F-47F7-9592-47EF1DD6B876}
 		{44AB500F-AC1B-408E-B484-52FFF73ECD3E} = {604E7AD2-5147-4791-B795-A9D06B62228F}
+		{E8EF1B93-D76F-4F81-94EA-8B7163A39188} = {604E7AD2-5147-4791-B795-A9D06B62228F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {78506668-693E-4CE8-9FB0-4F3185A2A675}

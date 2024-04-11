@@ -13,4 +13,8 @@
     <Folder Include="Produtos\Incluir\Interfaces\Repositories\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\GameForce.Domain.Core\GameForce.Domain.Core.csproj" />
+  </ItemGroup>
+
 </Project>
